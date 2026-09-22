@@ -45,10 +45,6 @@ The Light Idea application typically uses about **300–400 MB of baseline memor
 
 If macOS says that Apple cannot verify whether `Light Idea.app` contains malware, the manually downloaded package may not yet be notarized by Apple. First confirm that the app came from the trusted [GitHub Releases](https://github.com/1lck/Lithe-IDEA/releases/latest), then use one of these methods:
 
-<p align="center">
-  <img src="./docs/assets/screenshots/macos-app-verification-warning.png" width="492" alt="macOS warning that Light Idea.app cannot be opened">
-</p>
-
 1. In **Applications**, Control-click `Light Idea.app`, choose **Open**, and choose **Open** again in the confirmation dialog.
 2. If macOS still blocks it, open **System Settings > Privacy & Security**, click **Open Anyway** next to the security warning, and launch the app again.
 3. You can also remove the quarantine attribute in Terminal:
